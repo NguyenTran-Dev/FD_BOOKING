@@ -8,15 +8,16 @@ const Example = () => {
       title: 'Form Control',
       el: (
         <FormControl
-          label="Email"
+          label="Emaill"
           require
-          errorMessage="Email invalid"
+          // errorMessage="Email invalid"
           helperText="input"
         >
-          <Input />
+          <Input placeholder='dhhd'/>
         </FormControl>
       ),
     },
+  
   ];
   const renderCommon = () => {
     return commons.map((item) => {
